@@ -1,5 +1,5 @@
 body {
-    min-height: 100%;
+    height: 1120px;
     background-color: #C4C4C4;
     margin: 0px;
 }
@@ -62,8 +62,13 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 60px;
+        gap: 20px 30px;
     }
-    .card__title {
+    .card{
+        margin: 0px;
+    }
+        .card__title {
         font-size: 19px;
     }
     .card__description {
@@ -74,8 +79,6 @@ main {
     main {
         display: block;
         margin-top: 60px;
-    }
-    .card{
         gap: 30px;
     }
     .card__title {
